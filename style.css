@@ -7,6 +7,7 @@
 body {
     background-color: #f9faf8;
     font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
 }
 
 .header, .herocont, .footer, .ctacard {
@@ -20,6 +21,18 @@ body {
 .header {
     justify-content: space-between;
 }
+
+p.logo {
+    margin-right: auto;
+    color: inherit;
+    font-size: 24px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .herocont, .footer, .ctacard {
     justify-content: center;
 }
@@ -31,17 +44,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-p.logo {
-    margin-right: auto;
-    color: inherit;
-    font-size: 24px;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
 }
 
 .mainbody {}
@@ -59,6 +61,15 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    padding: 0px 20%;
+}
+
+.infopt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .iconbox {
@@ -67,9 +78,7 @@ a {
     border: 2px solid #3882F6;
     border-radius: 8px;
 }
-.infopt img {
-    /* width: 100%; */
-}
+
 
 .leftside {
     display: flex;
