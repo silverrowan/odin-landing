@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    border: 1px solid orange;
     }
 
 body {
@@ -11,15 +12,18 @@ body {
 .header, .herocont, .footer {
     background-color: #1F2937;
     color: #f9faf8;
-}
-
-.header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     gap: 15px;
 }
+
+.header {
+    justify-content: space-between;
+}
+.herocont, .footer {
+    justify-content: center;
+}
+
 p.logo {
     margin-right: auto;
     color: inherit;
@@ -37,7 +41,7 @@ a {
 /* .infopt {} */
 /* Infobar section is flowing the wrong way - to do with size or something else? */
 
-.footer, .herocont, .infobar .ctacont {
+.infobar .ctacont {
     display: flex;
     flex-direction: row;
     justify-content: center;
