@@ -12,17 +12,19 @@ body {
 
 .header {
     background-color: #1F2937;
-    color: #f9faf8;
+    color: #E5E7EB;
     display: flex;
     align-items: center;
     gap: 15px;
     justify-content: space-between;
+    padding: 10px 10%;
 }
 
 p.logo {
     margin-right: auto;
-    color: inherit;
+    color: #f9faf8;
     font-size: 24px;
+    font-weight: 900;
 }
 
 a {
@@ -33,14 +35,16 @@ a {
 .herocont {
     justify-content: center;
     background-color: #1F2937;
-    color: #f9faf8;
+    color: #E5E7EB;
     display: flex;
     align-items: center;
     gap: 15px;
+    padding: 100px 10%;
+    
 }
 
 .heroimg {
-    width:40%;
+    /* width:40%; */
     align-self:stretch;
     background-color: #8c8e91;
     display: flex;
@@ -48,14 +52,38 @@ a {
     align-items: center;
 }
 
+.leftside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.herocont h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.herocont button {
+    background-color: #3882F6;
+    padding: 5px 25px;
+    border-radius: 4px;
+    color: #f9faf8;
+}
+
 .mainbody {}
-/* .infopt {} */
-/* Infobar section is flowing the wrong way - to do with size or something else? */
 
 .infocont {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.infocont h2 {
+    font-weight: 900;
+    font-size: 36px;
+    color:#1F2937;
 }
 
 .infobar { 
@@ -64,7 +92,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 0px 20%;
+    padding: 0px 15%;
 }
 
 .infopt {
@@ -85,12 +113,12 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.leftside {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 0px 15%;
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
 }
 
 .quote {}
