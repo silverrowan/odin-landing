@@ -38,18 +38,18 @@ a {
     color: #E5E7EB;
     display: flex;
     align-items: center;
-    gap: 15px;
-    padding: 100px 10%;
-    
+    gap: 30px;
+    padding: 100px 10%;   
 }
 
 .heroimg {
-    /* width:40%; */
+    width: 50px;
     align-self:stretch;
     background-color: #8c8e91;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .leftside {
@@ -57,6 +57,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     gap: 5px;
+    flex: 1;
 }
 
 .herocont h1 {
@@ -94,6 +95,7 @@ a {
     align-items: center;
     gap: 30px;
     padding-bottom: 80px;
+    flex-wrap: wrap;
 }
 
 .infopt {
@@ -102,6 +104,7 @@ a {
     align-items: center;
     text-align: center;
     gap: 5px;
+    max-width: 180px;
 }
 
 .iconbox {
@@ -130,32 +133,13 @@ a {
     font-style: normal;
 }
 
-
-.herocont {
-    justify-content: center;
-    background-color: #1F2937;
-    color: #E5E7EB;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-
-    }
-.heroimg {
-    /* width:40%; */
-    align-self:stretch;
-    background-color: #8c8e91;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .ctacont { 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     /* gap: 30px; */
-    /* padding: 80px 10%; */
+    padding: 80px 10%;
 }
 
 .ctacard {
@@ -164,10 +148,10 @@ a {
     color: #f9faf8;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10%;
     background-color: #3882f6;
-    margin: 0px 10%;
-    padding: 10%;
+    flex: 1;
+    padding: 30px 10%;
     border-radius: 8px;
 }
 
@@ -178,4 +162,5 @@ a {
     display: flex;
     align-items: center;
     gap: 15px;
+    padding: 30px 10%;
 }
