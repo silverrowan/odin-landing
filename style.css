@@ -24,8 +24,13 @@ body {
     justify-content: center;
 }
 
-.herocont img {
+.heroimg {
     width:40%;
+    align-self:stretch;
+    background-color: #8c8e91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 p.logo {
