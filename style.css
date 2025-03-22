@@ -24,6 +24,10 @@ body {
     justify-content: center;
 }
 
+.herocont img {
+    width:40%;
+}
+
 p.logo {
     margin-right: auto;
     color: inherit;
@@ -45,11 +49,21 @@ a {
     align-items: center;
 }
 
-.infobar .ctacont {
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: center; */
-    /* align-items: center; */
+.infobar, .ctacont { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconbox {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+.infopt img {
+    /* width: 100%; */
 }
 
 .leftside {
