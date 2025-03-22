@@ -65,25 +65,26 @@ a {
     font-weight: 900;
 }
 
-.herocont button {
+.herocont button, .ctacard button {
     background-color: #3882F6;
     padding: 5px 25px;
     border-radius: 4px;
     color: #f9faf8;
 }
 
-.mainbody {}
-
 .infocont {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 15%;
 }
 
 .infocont h2 {
     font-weight: 900;
     font-size: 36px;
     color:#1F2937;
+    padding: 36px 0;
+    text-align: center;
 }
 
 .infobar { 
@@ -92,7 +93,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 0px 15%;
+    padding-bottom: 80px;
 }
 
 .infopt {
@@ -100,6 +101,7 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 5px;
 }
 
 .iconbox {
@@ -113,16 +115,48 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 15%;
+    padding: 80px 15%;
     background-color: #E5E7EB;
     font-style: italic;
     font-size: 36px;
-    font-weight: light;
+    font-weight: 100;
     color: #1F2937;
 }
 
-.quote {}
-.quoteattribution{}
+.qattribution {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.herocont {
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    }
+.heroimg {
+    /* width:40%; */
+    align-self:stretch;
+    background-color: #8c8e91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctacont { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30px; */
+    /* padding: 80px 10%; */
+}
 
 .ctacard {
     justify-content: center;
@@ -132,15 +166,9 @@ a {
     align-items: center;
     gap: 15px;
     background-color: #3882f6;
-}
-
-.ctacont { 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding: 0px 20%;
+    margin: 0px 10%;
+    padding: 10%;
+    border-radius: 8px;
 }
 
 .footer {
