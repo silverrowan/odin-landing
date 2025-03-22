@@ -9,7 +9,7 @@ body {
     font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.header, .herocont, .footer {
+.header, .herocont, .footer, .ctacard {
     background-color: #1F2937;
     color: #f9faf8;
     display: flex;
@@ -20,7 +20,7 @@ body {
 .header {
     justify-content: space-between;
 }
-.herocont, .footer {
+.herocont, .footer, .ctacard {
     justify-content: center;
 }
 
@@ -35,18 +35,9 @@ a {
     text-decoration: none;
 }
 
-
-
 .mainbody {}
 /* .infopt {} */
 /* Infobar section is flowing the wrong way - to do with size or something else? */
-
-.infobar .ctacont {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 
 .infocont, .quotecont {
     display: flex;
@@ -54,10 +45,17 @@ a {
     align-items: center;
 }
 
+.infobar .ctacont {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
 .leftside {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .quote {}
