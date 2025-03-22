@@ -10,15 +10,12 @@ body {
     font-size: 18px;
 }
 
-.header, .herocont, .footer, .ctacard {
+.header {
     background-color: #1F2937;
     color: #f9faf8;
     display: flex;
     align-items: center;
     gap: 15px;
-}
-
-.header {
     justify-content: space-between;
 }
 
@@ -33,8 +30,13 @@ a {
     text-decoration: none;
 }
 
-.herocont, .footer, .ctacard {
+.herocont {
     justify-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .heroimg {
@@ -50,13 +52,13 @@ a {
 /* .infopt {} */
 /* Infobar section is flowing the wrong way - to do with size or something else? */
 
-.infocont, .quotecont {
+.infocont {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.infobar, .ctacont { 
+.infobar { 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -79,6 +81,11 @@ a {
     border-radius: 8px;
 }
 
+.quotecont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .leftside {
     display: flex;
@@ -90,5 +97,29 @@ a {
 .quoteattribution{}
 
 .ctacard {
+    justify-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    gap: 15px;
     background-color: #3882f6;
+}
+
+.ctacont { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 20%;
+}
+
+.footer {
+    justify-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
